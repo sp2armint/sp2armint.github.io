@@ -1,0 +1,38 @@
+/*! type-grid css. 2017, Suppy */
+
+body {
+    /* 가이드라인 설계*/
+    margin: 0;
+    padding-top: 63px;
+    background: url("./Artboard.png");
+    height: 200vh;
+    /* 글꼴, 글자크기, 행간, 글자색상, 자간, 어간,  */
+    font-family: "NanumSquare", "Dotum", sans-serif;
+    font-size: 0.875%;
+    font-color: #4A4A4A;
+    font-spacing -0.08em; /* 폰토샵설정값기준 : -20 */
+
+    /* 글꽃, 글자크기, 글자두계, 글자 기울기, 글자 변형, 행간 은 줄여서 쓸 수 있음 (속기형 속성) */
+    /* font: 글자크기 글꼴; (필수!!!) */
+    /* font: 14px "NanumSquare", "Dotum", sans-serif; */
+    /* font: 글자크기/(이슬래시는 나눔자,나누기를 하는 게 아니라 그저 구분) 행간 글꼴; (옵션) */
+    font: 14px/1.5 "NanumSquare", "Dotum", sans-serif;
+    /* font: 두께 기울기 변형(대소문자) 글자크기/행간 글꼴; (옵션) */
+    /* font: narmal italic small-caps 14px/1.5 "NanumSquare", Dotum, sans-serif; */
+}
+
+
+/* 본문 디자인 */
+
+p {
+    margin-top: 0;
+    margin-bottom: 21px; /* 1.5em */
+}
+
+
+/* 컨테이너 디자인 */
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}

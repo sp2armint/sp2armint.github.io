@@ -1,0 +1,51 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+
+h1, h2 {
+    font-weight: 100/* 100-900. bold 700 ligth 200 */;
+    font-family: "Spoqa Han Sans";
+}
+
+a {
+    color: #28B3AB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00EBC3;
+}
+
+.active-page {
+    padding-right: 3px;
+    border-right: 3px #FFB530 solid;
+}
+
+#travel{
+    /* 기본값 background: transparent url() repeat left top scroll;*/
+    background: url("../assets/travel.jpg");
+    background-size: cover;
+}
+
+#spring{
+    background: url("../assets/spring.jpg");
+    background-size: cover;
+}
+
+#summer{
+    background: url("../assets/summer.jpg");
+    background-size: cover;
+}
+
+/*
+.spring a {
+    color: #FE9E00;
+    text-decoration: none;
+}
+
+.spring a:hover {
+    color: #FFB530;
+} 
+*/
